@@ -73,7 +73,7 @@
 }
 
 .bg-discount-gradient {
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  background: linear-gradient(125.17deg, #443eedbb 0%, #2312e1 100%);
 }
 
 .box-shadow {
@@ -124,7 +124,7 @@
   background: var(--black-gradient);
 }
 
-.blue__gradient {
+.bg-blue-gradient {
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
   filter: blur(123px);
 }
@@ -135,6 +135,18 @@
 }
 
 .white__gradient {
-  background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
+  background: rgba(55, 108, 223, 0.6);
+  /* filter: blur(750px); */
+}
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: transparent;
 }

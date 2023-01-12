@@ -6,41 +6,67 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id:"courses",
+    title:"Courses"
   },
   {
-    id: "product",
-    title: "Product",
+    id: "placement",
+    title: "Placement",
+    link: "https://blog.loginradius.com/engineering/guest-post/modern-login-signup-form-tailwindcss-react/"
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "blog",
+    title: "Blog",
+    link:"https://blog.loginradius.com/engineering/guest-post/modern-login-signup-form-tailwindcss-react/"
   },
+  {
+    id: "signin",
+    title: "Sign in",
+    linl:"https://blog.loginradius.com/engineering/guest-post/modern-login-signup-form-tailwindcss-react/"
+  },
+ 
 ];
 
 export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Web Development",
     content:
       "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    link:"https://blog.epedagogue.com/"
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "software testing",
     content:
       "We take proactive steps make sure your information and transactions are secure.",
+      link:"https://blog.epedagogue.com/"
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "API testing",
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
+    link:"https://blog.epedagogue.com/"  
   },
+  {
+    id: "feature-4",
+    icon: send,
+    title: "API testing1",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+    link:"https://blog.epedagogue.com/"  
+  },
+  {
+  id: "feature-5",
+  icon: star,
+  title: "Web Development",
+  content:"The best credit cards offer some tantalizing combinations of promotions and prizes",
+  link:"https://blog.epedagogue.com/"
+},
 ];
 
 export const feedback = [
@@ -73,18 +99,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Placement Rate",
+    value: "100%",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Written Palcement Assurance",
+    value: "",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Money Back Gaurantee",
+    value: "",
   },
 ];
 
@@ -195,3 +221,76 @@ export const clients = [
     logo: dropbox,
   },
 ];
+export const forms =[
+{
+  id:"form",
+}
+];
+
+const loginFields=[
+  {
+      labelText:"Email address",
+      labelFor:"email-address",
+      id:"email-address",
+      name:"email",
+      type:"email",
+      autoComplete:"email",
+      isRequired:true,
+      placeholder:"Email address"   
+  },
+  {
+      labelText:"Password",
+      labelFor:"password",
+      id:"password",
+      name:"password",
+      type:"password",
+      autoComplete:"current-password",
+      isRequired:true,
+      placeholder:"Password"   
+  }
+]
+
+const signupFields=[
+  {
+      labelText:"Username",
+      labelFor:"username",
+      id:"username",
+      name:"username",
+      type:"text",
+      autoComplete:"username",
+      isRequired:true,
+      placeholder:"Username"   
+  },
+  {
+      labelText:"Email address",
+      labelFor:"email-address",
+      id:"email-address",
+      name:"email",
+      type:"email",
+      autoComplete:"email",
+      isRequired:true,
+      placeholder:"Email address"   
+  },
+  {
+      labelText:"Password",
+      labelFor:"password",
+      id:"password",
+      name:"password",
+      type:"password",
+      autoComplete:"current-password",
+      isRequired:true,
+      placeholder:"Password"   
+  },
+  {
+      labelText:"Confirm Password",
+      labelFor:"confirm-password",
+      id:"confirm-password",
+      name:"confirm-password",
+      type:"password",
+      autoComplete:"confirm-password",
+      isRequired:true,
+      placeholder:"Confirm Password"   
+  }
+]
+
+
