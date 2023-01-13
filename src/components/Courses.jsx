@@ -27,12 +27,6 @@ const Courses = () => {
      
        </div>
        
-
-
-
-       
-
-       
     </section>
   )
 }

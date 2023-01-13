@@ -22,7 +22,7 @@ export const navLinks = [
   {
     id: "signin",
     title: "Sign in",
-    linl:"https://blog.loginradius.com/engineering/guest-post/modern-login-signup-form-tailwindcss-react/"
+    link:"https://blog.loginradius.com/engineering/guest-post/modern-login-signup-form-tailwindcss-react/"
   },
  
 ];
