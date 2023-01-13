@@ -2,11 +2,11 @@ import { useState } from "react";
 import {eplogo,close,menu,} from "../assets"
 import { navLinks } from "../constants";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [toggle, setToggle] = useState(false)
   return (
     <nav className="w-full flex py-6 justify-between items-centre navbar">
-    <img src={eplogo} alt="ePedagouge" className="w-[64px] h-[44px]" />
+    <img src={eplogo} alt="ePedagouge" className="w-[80px] h-[60px]" />
 
     <ul className="list-none sm:flex hidden justify-end items-center flex-1">
       {navLinks.map((nav, index) => (
@@ -16,8 +16,12 @@ const Navbar = () => {
           cursor-pointer font-normal
           text-[10px] ml-10`}
         >
-          <a href={`${index >= navLinks.length - 3  ? `${nav.link}`: `#${nav.id}`}`}>{nav.title}</a>
-          
+
+          {(nav.id == "signin") 
+            ? <button onClick = {props.handleClick}> {nav.title}</button> 
+            : <a href = {`${index >= navLinks.length - 3  ? `${nav.link}`: `#${nav.id}`}`}> {nav.title}</a>
+          } 
+
         </li>
       ))}
     </ul>
@@ -36,7 +40,11 @@ const Navbar = () => {
           cursor-pointer font-normal
           text-[10px] ${index === navLinks.length - 1 ? 'mr-0' :'mb-4' }`}
         >
-          <a href={`${index > navLinks.length - 5 ? `${nav.link}`: `#${nav.id}`}`}>{nav.title}</a>
+          {(nav.id == "signin") 
+            ? <button onClick = {props.handleClick}> {nav.title}</button> 
+            : <a href = {`${index >= navLinks.length - 3  ? `${nav.link}`: `#${nav.id}`}`}> {nav.title}</a>
+          } 
+
         </li>
       ))}
     </ul>
