@@ -19,11 +19,11 @@ export const navLinks = [
     title: "Blog",
     link:"https://blog.loginradius.com/engineering/guest-post/modern-login-signup-form-tailwindcss-react/"
   },
-  {
-    id: "signin",
-    title: "Sign in",
-    link:"https://blog.loginradius.com/engineering/guest-post/modern-login-signup-form-tailwindcss-react/"
-  },
+  // {
+  //   id: "signin",
+  //   title: "Sign in",
+  //   link:"https://blog.loginradius.com/engineering/guest-post/modern-login-signup-form-tailwindcss-react/"
+  // },
  
 ];
 
