@@ -3,6 +3,7 @@ import styles from './style';
 import { Navbar, CardDeal, Courses, Clients, CTA, Stats, Footer, Testimonials, Hero, RegistrationForm, SignIn } from './components';
 
 
+
 const App = () => {
   const [currentPage, setCurrentPage] = useState(true)
   function toggle() {
@@ -33,7 +34,7 @@ const App = () => {
             <Testimonials></Testimonials>
             <CTA></CTA>
             <Footer></Footer>
-
+            
 
           </div>
         </div>
