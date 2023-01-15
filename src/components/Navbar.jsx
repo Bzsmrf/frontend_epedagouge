@@ -14,7 +14,7 @@ const Navbar = (props) => {
           key={nav.id}
           className={`font-poppins 
           cursor-pointer font-normal
-          text-[10px] ml-10`}
+          text-[20px] ml-10`}
         >
 
           {(nav.id == "signin") 
