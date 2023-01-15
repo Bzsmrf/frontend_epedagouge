@@ -5,7 +5,8 @@ import Modal from "./Modal";
 import { useState } from "react";
 
 const Footer = () => {
-   const [showModal , setshowModal] = useState(false)
+  const [show, setShow] = useState(false);
+  const handleShow = () => setShow(true);
   return (
   
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
@@ -29,11 +30,11 @@ const Footer = () => {
             </h4>
             <ul className="list-none mt-4 ">
              
-                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onclick={(setshowModal)=>(true)}>Content</li>
-                <li className='font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer' onclick={(setshowModal)=>(true)}>How it Works</li>
-                <li className='font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer' onclick={(setshowModal)=>(true)}>Create</li>
-                <li className='font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer' onclick={(setshowModal)=>(true)}>Explore</li>
-                <li className='font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer' onclick={(setshowModal)=>(true)}>Terms & Services</li>
+                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow}>Content</li>
+                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow}>How it Works</li>
+                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow}>Create</li>
+                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow}>Explore</li>
+                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow}>Terms & Services</li>
             </ul>
           </div>
           <div  className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
@@ -81,7 +82,7 @@ const Footer = () => {
         ))}
       </div>
     </div>
-    <Modal isvisible={showModal}></Modal>
+    <Modal show={show} setShow={setShow}></Modal>
   </section>
 )};
 

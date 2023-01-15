@@ -15,6 +15,7 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <Navbar 
             handleClick = {toggle}
+            currentState = {currentPage}
           />
         </div>
       </div>

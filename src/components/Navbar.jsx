@@ -4,9 +4,15 @@ import { navLinks } from "../constants";
 
 const Navbar = (props) => {
   const [toggle, setToggle] = useState(false)
+  
+  function handleClick() {
+    if (props.currentState == false) props.handleClick();
+    // <a href = {`${index >= navLinks.length - 3  ? `${nav.link}`: `#${nav.id}`}`}> {nav.title}</a>
+  }
+
   return (
     <nav className="w-full flex py-6 justify-between items-centre navbar">
-    <img src={eplogo} alt="ePedagouge" className="w-[80px] h-[60px]" />
+    <img src={eplogo} alt="ePedagouge" className="w-[100px] h-[80px]" />
 
     <ul className="list-none sm:flex hidden justify-end items-center flex-1">
       {navLinks.map((nav, index) => (
@@ -14,12 +20,13 @@ const Navbar = (props) => {
           key={nav.id}
           className={`font-poppins 
           cursor-pointer font-normal
-          text-[10px] ml-10`}
+          text-[20px] ml-10`}
         >
 
-          {(nav.id == "signin") 
+          {
+            (nav.id == "signin") 
             ? <button onClick = {props.handleClick}> {nav.title}</button> 
-            : <a href = {`${index >= navLinks.length - 3  ? `${nav.link}`: `#${nav.id}`}`}> {nav.title}</a>
+            : <a href = {`${index >= navLinks.length - 3  ? `${nav.link}`: `#${nav.id}`}`}> <button onClick={handleClick}>{nav.title}</button></a>
           } 
 
         </li>
