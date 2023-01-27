@@ -4,7 +4,8 @@ const RegistrationForm = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    phone: ''
+    phone: '',
+    pass: '',
   });
 
   const handleChange = (event) => {
@@ -66,6 +67,21 @@ const RegistrationForm = () => {
           value={formData.phone}
           onChange={handleChange}
           placeholder="Enter your Phone Number"
+          required
+        />
+      </div>
+      <div className="mb-4">
+        <label className="block text-white-700 font-medium mb-2" htmlFor="pass">
+          Password
+        </label>
+        <input
+        className="border-2 border-white-300 rounded-lg w-full py-2 px-3 text-black" 
+          type="pass" 
+          name="pass" 
+          id="pass"
+          value={formData.pass}
+          onChange={handleChange}
+          placeholder="Enter a password u can remember"
           required
         />
       </div>

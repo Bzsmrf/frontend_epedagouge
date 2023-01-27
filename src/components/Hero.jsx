@@ -39,7 +39,7 @@ const Hero = () => {return  (
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img 
         src={hero} alt="hero"
-        className="w-[100%] h-[100%] relative z-[5] floats" 
+        className="w-[100%] h-[100%] relative  floats" 
         />
       </div>
       <div className={`ss:hidden ${styles.flexCenter}`}>
