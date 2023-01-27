@@ -24,11 +24,14 @@ const Aboutus = ({show,setShow }) => {
           </div>
           
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-[30px]">
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4 mt-[10px]">
              {cardsData.map((card, index) => (
-                <div className='justify-centre' key={index}>
-                 <h1 className="text-lg font-medium  ">{card.title}</h1>
+                <div key={index}>
+                <h1 className={`${styles.flexCenter}  } text-lg font-medium `} >{card.title}</h1>
+                <div className={`${styles.flexCenter} `} >
+                 
                 <p className={`text-black-700 text-[10px] bg-secondary rounded-lg py-[10px] px-[10px] ${styles.boxfix}`}>{card.description}</p>
+                </div>
                 </div>
               ))}
           </div>

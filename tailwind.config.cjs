@@ -6,10 +6,11 @@ module.exports = {
     extend: {
       colors: {
         primary: "#0002A1",
-        secondary: "#00f6ff",
+        secondary: "#00efff",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
         red:"#F55050"
+        
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
