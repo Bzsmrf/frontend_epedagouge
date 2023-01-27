@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { discount, hero,} from '../assets'
+import { discount, hero,quiz} from '../assets'
 import Aplynow from './Aplynow'
 const Hero = () => {return  (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -27,10 +27,10 @@ const Hero = () => {return  (
       <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
          At Your Palm
       </h1>
-      <h2 className='font-poppins font-semibold text-[18px]  max-w-[470px] mt-5'> 
+      <h2 className='font-poppins font-semibold text-[18px]  max-w-[470px] mt-5 text-white'> 
       Welcome to <span className='text-gradient'>ePedagogue </span>
       </h2>
-      <p className='font-poppins leading-[20px] max-w-[470px] mt-2 '>
+      <p className='font-poppins leading-[20px] max-w-[470px] mt-2 text-white '>
       <span className='text-gradient font-semibold'>Best Software Testing </span>Course Provider in <span className='text-gradient font-semibold'>Noida</span>{" "}and <span className='text-gradient font-semibold'>Delhi/Ncr</span>{" "} 
       Today’s education  system in India is not limited to classroom study. We have noticed a vast change from classroom study to digital study. Students must cope with the changing trends. We are engaged to provide highly interactive digital classroom  study.<span className='text-gradient font-semibold'>Students experience</span>{" "}  the  best learning environment  and a lucid way of <span className='text-gradient font-semibold'>teaching with 3-dimensional illustrations.</span> 
       </p>
@@ -39,7 +39,7 @@ const Hero = () => {return  (
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img 
         src={hero} alt="hero"
-        className="w-[100%] h-[100%] relative z-[5]" 
+        className="w-[100%] h-[100%] relative  floats" 
         />
       </div>
       <div className={`ss:hidden ${styles.flexCenter}`}>

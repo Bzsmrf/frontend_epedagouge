@@ -26,6 +26,48 @@ export const navLinks = [
   },
  
 ];
+export const testimonial =[
+
+{
+  id: "testimonial-1",
+  title: "Anupreet",
+  content: "Software Tester",
+  img: people01,
+
+},
+{
+  id: "testimonial-1",
+  title: "Anupreet",
+  content: "Software Tester",
+  img: people01,
+
+},
+{
+  id: "testimonial-1",
+  title: "Anupreet",
+  content: "Software Tester",
+  img: people01,
+
+},
+{
+  id: "testimonial-1",
+  title: "Anupreet",
+  content: "Software Tester",
+  img: people01,
+
+},
+{
+  id: "testimonial-1",
+  title: "Anupreet",
+  content: "Software Tester",
+  img: people01,
+
+},
+
+
+];
+
+
 
 export const features = [
   {
@@ -113,7 +155,32 @@ export const stats = [
     value: "",
   },
 ];
-
+export const cardsData = [
+  {
+    title: 'Dedication',
+    description: 'Perhaps the most obvious of characteristics, but a good teacher is dedicated to their work and educating their students.A dedicated teacher not only has a passion for their job and loves to teach, but also consistently works to make their classroom a better place for all.',
+  },
+  {
+    title: 'Professional',
+    description: " Being a professional teacher means being knowledgeable and enthusiastic about one's materials creating a supportive and respectful classroom environment building authentic relationships with and advocating for students being organized and planning ahead .",
+  },
+  {
+    title: 'Honesty',
+    description: 'The definition of Honesty is the quality or fact of being truthful, sincere, and fair. Honesty requires several other character traits such as good judgment, responsibility, loyalty, and courage. ',
+  },
+  {
+    title: 'Creative',
+    description: 'Perhaps the most obvious of characteristics, but a good teacher is dedicated to their work and educating their students.A dedicated teacher not only has a passion for their job and loves to teach, but also consistently works to make their classroom a better place for all.',
+  },
+  {
+    title: 'Efficient',
+    description:"Being a professional teacher means being knowledgeable and enthusiastic about one's materials creating a supportive and respectful classroom environment building authentic relationships with and advocating for students being organized and planning ahead.."
+  },
+  {
+    title:'Committed',
+    description:'Committed teachers are characterized by their commitment to achievement of their students Committed teachers are concerned with the development of their students and they deeply struggle how to keep students learning and grow more.',
+  },
+  ];
 export const footerLinks = [
   {
     title: "Useful Links",
@@ -184,22 +251,22 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/officialepedagogue/",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/epedagogue",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://twitter.com/e_pedagogue",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/epedagogue/",
   },
 ];
 

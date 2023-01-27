@@ -24,7 +24,9 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import eplogo from "./eplogo.png";
-import hero from "./hero.png";
+import hero from "./hero.svg";
+import summer from "./summer.svg";
+import quiz from "./quiz.svg";
 export {
   airbnb,
   bill,
@@ -53,4 +55,6 @@ export {
   people03,
   eplogo,
   hero,
+  summer,
+  quiz,
 };

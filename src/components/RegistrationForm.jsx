@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-
+import styles from '../style';
 const RegistrationForm = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    phone: ''
+    phone: '',
+    pass: '',
   });
 
   const handleChange = (event) => {
@@ -21,14 +22,15 @@ const RegistrationForm = () => {
   }
 
   return (
-    <form id = "form" onSubmit={handleSubmit} className="bg-black-gradient leading-[20px] mt-10 p-6 rounded-lg sm:max-w-[300px] justify-centre ">
+    <section className={`${styles.boxWidth} ${styles.flexCenter} ${styles.paddingX} ${styles.paddingY}`}>
+    <form id = "form" onSubmit={handleSubmit} className={`bg-secondary leading-[20px] mt-10 p-6 rounded-lg sm:max-w-[300px] justify-centre text-black`}>
       <h2 className="text-lg font-medium mb-4">Registration Form</h2>
       <div className="mb-4">
         <label className="block text-white-700 font-medium mb-2" htmlFor="name">
           Name
         </label>
         <input 
-          className="border-2 border-white-300 rounded-lg w-full py-2 px-3" 
+          className="border-2 border-white-300 rounded-lg w-full py-2 px-3 text-black" 
           type="text" 
           name="name" 
           id="name"
@@ -43,7 +45,7 @@ const RegistrationForm = () => {
           Email
         </label>
         <input 
-          className="border-2 border-white-300 rounded-lg w-full py-2 px-3" 
+          className="border-2 border-white-300 rounded-lg w-full py-2 px-3 text-black" 
           type="email" 
           name="email" 
           id="email"
@@ -58,7 +60,7 @@ const RegistrationForm = () => {
           Phone Number
         </label>
         <input
-        className="border-2 border-white-300 rounded-lg w-full py-2 px-3" 
+        className="border-2 border-white-300 rounded-lg w-full py-2 px-3 text-black" 
           type="phone" 
           name="phone" 
           id="phone"
@@ -68,11 +70,27 @@ const RegistrationForm = () => {
           required
         />
       </div>
+      <div className="mb-4">
+        <label className="block text-white-700 font-medium mb-2" htmlFor="pass">
+          Password
+        </label>
+        <input
+        className="border-2 border-white-300 rounded-lg w-full py-2 px-3 text-black" 
+          type="pass" 
+          name="pass" 
+          id="pass"
+          value={formData.pass}
+          onChange={handleChange}
+          placeholder="Enter a password u can remember"
+          required
+        />
+      </div>
       <div>
       <button className="  text-[12px]  xs:text-[15px] font-poppins px-4 py-2 font-semibold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue  ">
          Submit
         </button>
       </div>
-      </form>)
+      </form>
+      </section>)
 }
 export default RegistrationForm

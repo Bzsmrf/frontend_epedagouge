@@ -26,7 +26,7 @@ const Navbar = (props) => {
           {
             (nav.id == "signin") 
             ? <button onClick = {props.handleClick}> {nav.title}</button> 
-            : <a href = {`${index >= navLinks.length - 3  ? `${nav.link}`: `#${nav.id}`}`}> <button onClick={handleClick}>{nav.title}</button></a>
+            : <a href = {`${index >= navLinks.length - 2  ? `${nav.link}`: `#${nav.id}`}`}> <button onClick={handleClick}>{nav.title}</button></a>
           } 
 
         </li>
@@ -38,7 +38,7 @@ const Navbar = (props) => {
      className="w-[20px] h-[20px] object-contain"
      onClick={()=> setToggle((prev)=>!prev)}
      ></img>
-     <div className={`${toggle ? 'flex':'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+     <div className={`${toggle ? 'flex':'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar text-white`}>
      <ul className="list-none flex flex-col justify-centre items-center flex-1">
       {navLinks.map((nav, index) => (
         <li
