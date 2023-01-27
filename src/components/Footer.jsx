@@ -1,12 +1,22 @@
 import styles from "../style";
 import { eplogo } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
-import Modal from "./Modal";
+import Aboutus from "./Aboutus";
 import { useState } from "react";
+import Contactus from "./Contactus";
+import Placement from "./Placement";
+import Career from "./Career";
 
 const Footer = () => {
   const [show, setShow] = useState(false);
   const handleShow = () => setShow(true);
+  const [show1, setShow1] = useState(false);
+  const handleShow1 = () => setShow1(true);
+  const [show2, setShow2] = useState(false);
+  const handleShow2 = () => setShow2(true);
+  const [show3, setShow3] = useState(false);
+  const handleShow3 = () => setShow3(true);
+ 
   return (
   
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
@@ -26,15 +36,29 @@ const Footer = () => {
         
           <div  className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
             <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
-            Useful Links
+            
             </h4>
             <ul className="list-none mt-4 ">
              
-                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow}>Content</li>
-                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow}>How it Works</li>
-                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow}>Create</li>
-                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow}>Explore</li>
-                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow}>Terms & Services</li>
+                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" ></li>
+                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" ></li>
+                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" ></li>
+                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" ></li>
+                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" ></li>
+            </ul>
+          </div>
+          <div  className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
+            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
+            Useful Links
+            </h4>
+            <ul className="list-none mt-4">
+             
+            <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow}>Aboutus</li>
+                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow1}>Palcement</li>
+                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow2}>Career</li>
+                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow3}>Contactus</li>
+                
+                
             </ul>
           </div>
           <div  className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
@@ -44,18 +68,7 @@ const Footer = () => {
             <ul className="list-none mt-4">
              
                 <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}>Blog</li>
-                <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}>Newsletters</li>
-                
-            </ul>
-          </div>
-          <div  className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
-            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
-            Partner
-            </h4>
-            <ul className="list-none mt-4">
-             
-                <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}>Our Partner</li>
-                <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}>How it Works</li>
+                <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}></li>
                 
             </ul>
           </div>
@@ -82,7 +95,11 @@ const Footer = () => {
         ))}
       </div>
     </div>
-    <Modal show={show} setShow={setShow}></Modal>
+    <Aboutus show={show} setShow={setShow}></Aboutus>
+    <Placement show1={show1} setShow1={setShow1}></Placement>
+    <Career show2={show2} setShow2={setShow2}></Career>
+    <Contactus show3={show3} setShow3={setShow3}></Contactus>
+    
   </section>
 )};
 

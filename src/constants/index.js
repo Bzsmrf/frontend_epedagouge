@@ -26,6 +26,48 @@ export const navLinks = [
   },
  
 ];
+export const testimonial =[
+
+{
+  id: "testimonial-1",
+  title: "Anupreet",
+  content: "Software Tester",
+  img: people01,
+
+},
+{
+  id: "testimonial-1",
+  title: "Anupreet",
+  content: "Software Tester",
+  img: people01,
+
+},
+{
+  id: "testimonial-1",
+  title: "Anupreet",
+  content: "Software Tester",
+  img: people01,
+
+},
+{
+  id: "testimonial-1",
+  title: "Anupreet",
+  content: "Software Tester",
+  img: people01,
+
+},
+{
+  id: "testimonial-1",
+  title: "Anupreet",
+  content: "Software Tester",
+  img: people01,
+
+},
+
+
+];
+
+
 
 export const features = [
   {
@@ -184,22 +226,22 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/officialepedagogue/",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/epedagogue",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://twitter.com/e_pedagogue",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/epedagogue/",
   },
 ];
 
