@@ -27,6 +27,9 @@ import eplogo from "./eplogo.png";
 import hero from "./hero.svg";
 import summer from "./summer.svg";
 import quiz from "./quiz.svg";
+import call from "./call.svg";
+import cll from "./cll.svg";
+import adres from "./adres.svg";
 export {
   airbnb,
   bill,
@@ -57,4 +60,7 @@ export {
   hero,
   summer,
   quiz,
+  call,
+  cll,
+  adres
 };

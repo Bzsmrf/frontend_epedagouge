@@ -1,4 +1,5 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star ,call,cll, adres } from "../assets";
+import Career from "../components/Career";
 
 export const navLinks = [
   {
@@ -17,7 +18,7 @@ export const navLinks = [
   {
     id: "blog",
     title: "Blog",
-    link:"https://blog.loginradius.com/engineering/guest-post/modern-login-signup-form-tailwindcss-react/"
+    link:"https://blog.epedagogue.com/"
   },
   {
     id: "signin",
@@ -181,6 +182,23 @@ export const cardsData = [
     description:'Committed teachers are characterized by their commitment to achievement of their students Committed teachers are concerned with the development of their students and they deeply struggle how to keep students learning and grow more.',
   },
   ];
+export const cardsData1 = [
+  {
+    title:'Address Info',
+    description: 'D-62, D Block, Sector 2, Noida, Uttar Pradesh 201301,',
+    img:adres,
+  },
+  {
+    title: 'Contact Info',
+    description: '7303644012,9716624550',
+    img:call,
+  },
+  {
+    title: 'Mail Info',
+    description:'officialepedagogue@gmail.com  info@epedagogue.com',
+    img:cll,
+  }
+] 
 export const footerLinks = [
   {
     title: "Useful Links",
@@ -292,6 +310,29 @@ export const forms =[
 {
   id:"form",
 }
+];
+export const cR =  [
+  {
+   
+   content:'Software Enginner',
+   title:'Apply Now',
+  },
+  {
+    content:'Teacher',
+    title:'Apply Now',
+  },
+  {
+    content:' Hindi Teacher',
+    title:'Apply Now',
+  },
+  {
+    content:' English Teacher',
+    title:'Apply Now',
+  },
+  {
+    content:' Math Teacher',
+    title:'Apply Now',
+  }
 ];
 
 const loginFields=[
