@@ -13,10 +13,10 @@ const Testimonials = () => {
         <div class={`h-auto overflow-x-auto flex container::-webkit-scrollbar  text-black `}>
         {testimonial.map((feature) =>  (
         <div class={`${styles.boxfix} font-poppins justify-items-center mx-1 min-w-m bg-secondary rounded-lg py-2 px-2 xs:py-2 px-2 text-black-700 hover:text-black-900  `}>
-          <h1 className="  text-[12px]  xs:text-[15px] font-poppins px-4 py-2 font-semibold text-black bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue  ">
+          {/* <h1 className="  text-[12px]  xs:text-[15px] font-poppins px-4 py-2 font-semibold text-black bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue  ">
           {feature.title}
             
-          </h1>
+          </h1> */}
           <img src={feature.img}></img>
           <p className={`${styles.paragraph} text-black text-left max-w-[450px]`}>
             {feature.content}
