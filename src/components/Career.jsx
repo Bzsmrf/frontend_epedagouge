@@ -1,9 +1,14 @@
 import React from 'react'
 import styles from '../style';
 import { cR } from '../constants';
-const Career = ({show2,setShow2 }) => {
-    const handleClose2 = () => setShow2(false);
-  
+import Formcareer from './Formcareer'; 
+import { useState } from "react";
+const Career = ({show2,setShow2}) => {
+  const [show6, setShow6] = useState(false);
+  const handleShow6 = () => setShow6(true);
+    
+  const handleClose2 = () => setShow2(false);
+    
     if (!show2) return null;
     return (
       <div className='fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center '>
@@ -21,14 +26,15 @@ const Career = ({show2,setShow2 }) => {
              Job Profile :  
             {feature.content}
           </p>
-          <button className=" float-right  text-[12px]  xs:text-[15px] font-poppins px-4 py-2 font-semibold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue  ">
-            <a href={``}>{feature.title}</a>
+          <button className=" float-right  text-[12px]  xs:text-[15px] font-poppins px-4 py-2 font-semibold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue  " onClick={handleShow6}>
+           {feature.title}
             
           </button>
           
         </div>
       ))}
     </div>
+    <Formcareer show6={show6} setShow6={setShow6}></Formcareer>
        </div>
       </div>
     </div>

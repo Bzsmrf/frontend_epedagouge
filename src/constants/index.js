@@ -1,4 +1,34 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star ,call,cll, adres } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star ,call,cll, adres ,AMAN,
+  ANKIT,
+  ANKUR,
+  ANOOP,
+  ANSHITYAGI,
+  ARUN,
+  BISHWAPRATAP,
+  CHANDRAKAR,
+  DEEKSHAKUNWAR,
+  DEEPA,
+  DIMPLE,
+  LAGAN,
+  PRADEEPKUMAR,
+  PREETY,
+  PRINCE,
+  PRIYA,
+  RAJAGHOSH,
+  RAJAT,
+  RAMAN,
+  RITURAJ,
+  RIYA,
+  SANDHYA,
+  SHASHI,
+  SHIVAMMOHAN,
+  SONALGUPTA,
+  SONAM,
+  SURBHI,
+  SUSHMITA,
+  UDENDRASINGH,
+  UMA,
+  VIJAY,} from "../assets";
 import Career from "../components/Career";
 
 export const navLinks = [
@@ -31,37 +61,37 @@ export const testimonial =[
 
 {
   id: "testimonial-1",
-  title: "Anupreet",
-  content: "Software Tester",
-  img: people01,
+  title: "",
+  content: "",
+  img: AMAN,
 
 },
 {
-  id: "testimonial-1",
-  title: "Anupreet",
-  content: "Software Tester",
-  img: people01,
+  id: "testimonial-2",
+  title: "",
+  content: "",
+  img: ANKIT,
 
 },
 {
-  id: "testimonial-1",
-  title: "Anupreet",
-  content: "Software Tester",
-  img: people01,
+  id: "testimonial-3",
+  title: "",
+  content: "",
+  img: ANKUR,
 
 },
 {
-  id: "testimonial-1",
-  title: "Anupreet",
-  content: "Software Tester",
-  img: people01,
+  id: "testimonial-4",
+  title: "",
+  content: "",
+  img: ANOOP,
 
 },
 {
-  id: "testimonial-1",
-  title: "Anupreet",
-  content: "Software Tester",
-  img: people01,
+  id: "testimonial-5",
+  title: "",
+  content: "",
+  img: ANSHITYAGI,
 
 },
 

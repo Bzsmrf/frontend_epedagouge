@@ -30,6 +30,39 @@ import quiz from "./quiz.svg";
 import call from "./call.svg";
 import cll from "./cll.svg";
 import adres from "./adres.svg";
+import AMAN from "./AMAN.png";
+import ANKIT from "./ANKIT.png";
+import ANKUR from "./ANKUR.png";
+import ANOOP from "./ANOOP.png";
+import ANSHITYAGI from "./ANSHITYAGI.png";
+import ARUN from "./ARUN.png";
+import BISHWAPRATAP from "./BISHWAPRATAP.png";
+import CHANDRAKAR from "./CHANDRAKAR.png";
+import DEEKSHAKUNWAR from "./DEEKSHAKUNWAR.png";
+import DEEPA from "./DEEPA.png";
+import DIMPLE from "./DIMPLE.png";
+import LAGAN from "./LAGAN.png";
+import PRADEEPKUMAR from "./PRADEEPKUMAR.png";
+import PREETY from "./PREETY.png";
+import PRINCE from "./PRINCE.jpg";
+import PRIYA from "./PRIYA.png";
+import RAJAGHOSH from "./RAJAGHOSH.jpg";
+import RAJAT from "./RAJAT.jpg";
+import RAMAN from "./RAMAN.png";
+import RITURAJ from "./RITURAJ.png";
+import RIYA from "./RIYA.png";
+import SANDHYA from "./SANDHYA.png";
+import SHASHI from "./SHASHI.png";
+import SHIVAMMOHAN from "./SHIVAMMOHAN.png";
+import SONALGUPTA from "./SONALGUPTA.png";
+import SONAM from "./SONAM.png";
+import SURBHI from "./SURBHI.png";
+import SUSHMITA from "./SUSHMITA.png";
+import UDENDRASINGH from "./UDENDRASINGH.png";
+import UMA from "./UMA.png";
+import VIJAY from "./VIJAY.png";
+
+
 export {
   airbnb,
   bill,
@@ -62,5 +95,36 @@ export {
   quiz,
   call,
   cll,
-  adres
+  adres,
+  AMAN,
+  ANKIT,
+  ANKUR,
+  ANOOP,
+  ANSHITYAGI,
+  ARUN,
+  BISHWAPRATAP,
+  CHANDRAKAR,
+  DEEKSHAKUNWAR,
+  DEEPA,
+  DIMPLE,
+  LAGAN,
+  PRADEEPKUMAR,
+  PREETY,
+  PRINCE,
+  PRIYA,
+  RAJAGHOSH,
+  RAJAT,
+  RAMAN,
+  RITURAJ,
+  RIYA,
+  SANDHYA,
+  SHASHI,
+  SHIVAMMOHAN,
+  SONALGUPTA,
+  SONAM,
+  SURBHI,
+  SUSHMITA,
+  UDENDRASINGH,
+  UMA,
+  VIJAY,
 };

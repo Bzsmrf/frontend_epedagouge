@@ -54,7 +54,7 @@ const Footer = () => {
             <ul className="list-none mt-4">
              
             <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow}>Aboutus</li>
-                <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow1}>Palcement</li>
+                {/* <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow1}>Palcement</li> */}
                 <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow2}>Career</li>
                 <li className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer" onClick={handleShow3}>Contactus</li>
                 
