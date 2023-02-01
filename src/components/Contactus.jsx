@@ -14,7 +14,7 @@ const Contactus = ({show3,setShow3 }) => {
         <h1 className={`font-semibold ss:text-[68px] text-[52px] ${styles.flexCenter}`}>
           Contact Us
         </h1>
-        <div className="grid grid-cols-1 md:grid-row-2 lg:grid-cols-3 gap-4 ">
+        <div className="grid grid-cols-1 md:grid-row-2 lg:grid-row-2 gap-4 ">
              {cardsData1.map((card, index) => (
                 <div className={`${styles.flexCenter}  `} key={index}>
                 <div className='grid grid-cols-1 xs:grid-cols-2 '>
