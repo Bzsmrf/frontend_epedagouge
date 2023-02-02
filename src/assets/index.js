@@ -64,7 +64,22 @@ import VIJAY from "./VIJAY.png";
 import SIGNIN from "./signin.svg";
 import COURSES from "./courses.svg";
 import PLACEMENT from "./placement.svg";
-
+import t1 from "./1.png";
+import t2 from "./2.png";
+import t3 from "./3.png";
+import t4 from "./4.png";
+import t5 from "./5.png";
+import t6 from "./6.png";
+import t7 from "./7.png";
+import t8 from "./8.png";
+import t9 from "./9.png";
+import t10 from "./10.png";
+import t11 from "./11.png";
+import t12 from "./12.png";
+import t13 from "./13.png";
+import t14 from "./14.png";
+import t15 from "./15.png";
+import t16 from "./16.png";
 
 export {
   airbnb,
@@ -133,4 +148,20 @@ export {
   SIGNIN,
   COURSES,
   PLACEMENT,
+  t1,
+  t2,
+  t3,
+  t4,
+  t5,
+  t6,
+  t7,
+  t8,
+  t9,
+  t10,
+  t11,
+  t12,
+  t13,
+  t14,
+  t15,
+  t16,
 };
