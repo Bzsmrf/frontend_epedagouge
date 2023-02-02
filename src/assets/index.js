@@ -61,6 +61,9 @@ import SUSHMITA from "./SUSHMITA.png";
 import UDENDRASINGH from "./UDENDRASINGH.png";
 import UMA from "./UMA.png";
 import VIJAY from "./VIJAY.png";
+import SIGNIN from "./signin.svg";
+import COURSES from "./courses.svg";
+import PLACEMENT from "./placement.svg";
 
 
 export {
@@ -127,4 +130,7 @@ export {
   UDENDRASINGH,
   UMA,
   VIJAY,
+  SIGNIN,
+  COURSES,
+  PLACEMENT,
 };

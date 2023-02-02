@@ -9,7 +9,7 @@ const Formcareer = ({show6,setShow6 }) => {
         name: '',
         email: '',
         phone: '',
-        pass: '',
+        resume: '',
       });
     
       const handleChange = (event) => {
@@ -75,21 +75,21 @@ const Formcareer = ({show6,setShow6 }) => {
           required
         />
       </div>
-      {/* <div className="mb-4">
+      <div className="mb-4">
         <label className="block text-white-700 font-medium mb-2" htmlFor="pass">
-          Password
+          Resume
         </label>
         <input
         className="border-2 border-white-300 rounded-lg w-full py-2 px-3 text-black" 
-          type="pass" 
-          name="pass" 
-          id="pass"
+          type="file" 
+          name="resume" 
+          id="resume"
           value={formData.pass}
           onChange={handleChange}
-          placeholder="Enter a password u can remember"
+          placeholder="Upload Your Resume"
           required
         />
-      </div> */}
+      </div>
       <div>
       <button className="  text-[12px]  xs:text-[15px] font-poppins px-4 py-2 font-semibold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue  ">
          Submit

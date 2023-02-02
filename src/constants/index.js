@@ -94,8 +94,188 @@ export const testimonial =[
   img: ANSHITYAGI,
 
 },
+{
+  id: "testimonial-6",
+  title: "",
+  content: "",
+  img: ARUN,
 
+},
+{
+  id: "testimonial-7",
+  title: "",
+  content: "",
+  img: BISHWAPRATAP,
 
+},
+{
+  id: "testimonial-8",
+  title: "",
+  content: "",
+  img: CHANDRAKAR,
+
+},
+{
+  id: "testimonial-9",
+  title: "",
+  content: "",
+  img: DEEKSHAKUNWAR,
+
+},
+{
+  id: "testimonial-10",
+  title: "",
+  content: "",
+  img: DEEPA,
+
+},
+{
+  id: "testimonial-11",
+  title: "",
+  content: "",
+  img: DIMPLE,
+
+},
+{
+  id: "testimonial-12",
+  title: "",
+  content: "",
+  img: LAGAN,
+
+},
+{
+  id: "testimonial-13",
+  title: "",
+  content: "",
+  img: PRADEEPKUMAR,
+
+},
+{
+  id: "testimonial-14",
+  title: "",
+  content: "",
+  img: PREETY,
+
+},
+{
+  id: "testimonial-15",
+  title: "",
+  content: "",
+  img: PRINCE,
+
+},
+{
+  id: "testimonial-16",
+  title: "",
+  content: "",
+  img: PRIYA,
+
+},
+{
+  id: "testimonial-17",
+  title: "",
+  content: "",
+  img: RAJAGHOSH,
+
+},
+{
+  id: "testimonial-18",
+  title: "",
+  content: "",
+  img: RAJAT,
+
+},
+{
+  id: "testimonial-19",
+  title: "",
+  content: "",
+  img: RAMAN,
+
+},
+{
+  id: "testimonial-20",
+  title: "",
+  content: "",
+  img: RITURAJ,
+
+},
+{
+  id: "testimonial-21",
+  title: "",
+  content: "",
+  img: RIYA,
+
+},
+{
+  id: "testimonial-22",
+  title: "",
+  content: "",
+  img: SANDHYA,
+
+},
+{
+  id: "testimonial-23",
+  title: "",
+  content: "",
+  img: SHASHI,
+
+},
+{
+  id: "testimonial-24",
+  title: "",
+  content: "",
+  img: SHIVAMMOHAN,
+
+},
+{
+  id: "testimonial-25",
+  title: "",
+  content: "",
+  img: SONALGUPTA,
+
+},
+{
+  id: "testimonial-26",
+  title: "",
+  content: "",
+  img: SONAM,
+
+},
+{
+  id: "testimonial-27",
+  title: "",
+  content: "",
+  img: SURBHI,
+
+},
+{
+  id: "testimonial-28",
+  title: "",
+  content: "",
+  img: SUSHMITA,
+
+},
+{
+  id: "testimonial-29",
+  title: "",
+  content: "",
+  img: UDENDRASINGH, 
+
+},
+{
+  id: "testimonial-30",
+  title: "",
+  content: "",
+  img: UMA,
+
+},
+{
+  id: "testimonial-31",
+  title: "",
+  content: "",
+  img: VIJAY,
+
+},
 ];
 
 
@@ -338,7 +518,7 @@ export const clients = [
 ];
 export const forms =[
 {
-  id:"form",
+  id:"register",
 }
 ];
 export const cR =  [
