@@ -1,4 +1,5 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star ,call,cll, adres ,AMAN,
+import {
+  people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, call, cll, adres, AMAN,
   ANKIT,
   ANKUR,
   ANOOP,
@@ -28,7 +29,24 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
   SUSHMITA,
   UDENDRASINGH,
   UMA,
-  VIJAY,} from "../assets";
+  VIJAY,
+  t1,
+  t2,
+  t3,
+  t4,
+  t5,
+  t6,
+  t7,
+  t8,
+  t9,
+  t10,
+  t11,
+  t12,
+  t13,
+  t14,
+  t15,
+  t16,
+} from "../assets";
 import Career from "../components/Career";
 
 export const navLinks = [
@@ -37,8 +55,8 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id:"courses",
-    title:"Courses"
+    id: "courses",
+    title: "Courses"
   },
   {
     id: "placement",
@@ -48,236 +66,319 @@ export const navLinks = [
   {
     id: "blog",
     title: "Blog",
-    link:"https://blog.epedagogue.com/"
+    link: "https://blog.epedagogue.com/"
   },
   {
     id: "signin",
     title: "Sign in",
-    link:"https://blog.loginradius.com/engineering/guest-post/modern-login-signup-form-tailwindcss-react/"
+    link: "https://blog.loginradius.com/engineering/guest-post/modern-login-signup-form-tailwindcss-react/"
   },
- 
+
 ];
-export const testimonial =[
+export const testimonial = [
 
-{
-  id: "testimonial-1",
-  title: "",
-  content: "",
-  img: AMAN,
+  {
+    id: "testimonial-1",
+    title: "",
+    content: "",
+    img: AMAN,
 
-},
-{
-  id: "testimonial-2",
-  title: "",
-  content: "",
-  img: ANKIT,
+  },
+  {
+    id: "testimonial-2",
+    title: "",
+    content: "",
+    img: ANKIT,
 
-},
-{
-  id: "testimonial-3",
-  title: "",
-  content: "",
-  img: ANKUR,
+  },
+  {
+    id: "testimonial-3",
+    title: "",
+    content: "",
+    img: ANKUR,
 
-},
-{
-  id: "testimonial-4",
-  title: "",
-  content: "",
-  img: ANOOP,
+  },
+  {
+    id: "testimonial-4",
+    title: "",
+    content: "",
+    img: ANOOP,
 
-},
-{
-  id: "testimonial-5",
-  title: "",
-  content: "",
-  img: ANSHITYAGI,
+  },
+  {
+    id: "testimonial-5",
+    title: "",
+    content: "",
+    img: ANSHITYAGI,
 
-},
-{
-  id: "testimonial-6",
-  title: "",
-  content: "",
-  img: ARUN,
+  },
+  {
+    id: "testimonial-6",
+    title: "",
+    content: "",
+    img: ARUN,
 
-},
-{
-  id: "testimonial-7",
-  title: "",
-  content: "",
-  img: BISHWAPRATAP,
+  },
+  {
+    id: "testimonial-7",
+    title: "",
+    content: "",
+    img: BISHWAPRATAP,
 
-},
-{
-  id: "testimonial-8",
-  title: "",
-  content: "",
-  img: CHANDRAKAR,
+  },
+  {
+    id: "testimonial-8",
+    title: "",
+    content: "",
+    img: CHANDRAKAR,
 
-},
-{
-  id: "testimonial-9",
-  title: "",
-  content: "",
-  img: DEEKSHAKUNWAR,
+  },
+  {
+    id: "testimonial-9",
+    title: "",
+    content: "",
+    img: DEEKSHAKUNWAR,
 
-},
-{
-  id: "testimonial-10",
-  title: "",
-  content: "",
-  img: DEEPA,
+  },
+  {
+    id: "testimonial-10",
+    title: "",
+    content: "",
+    img: DEEPA,
 
-},
-{
-  id: "testimonial-11",
-  title: "",
-  content: "",
-  img: DIMPLE,
+  },
+  {
+    id: "testimonial-11",
+    title: "",
+    content: "",
+    img: DIMPLE,
 
-},
-{
-  id: "testimonial-12",
-  title: "",
-  content: "",
-  img: LAGAN,
+  },
+  {
+    id: "testimonial-12",
+    title: "",
+    content: "",
+    img: LAGAN,
 
-},
-{
-  id: "testimonial-13",
-  title: "",
-  content: "",
-  img: PRADEEPKUMAR,
+  },
+  {
+    id: "testimonial-13",
+    title: "",
+    content: "",
+    img: PRADEEPKUMAR,
 
-},
-{
-  id: "testimonial-14",
-  title: "",
-  content: "",
-  img: PREETY,
+  },
+  {
+    id: "testimonial-14",
+    title: "",
+    content: "",
+    img: PREETY,
 
-},
-{
-  id: "testimonial-15",
-  title: "",
-  content: "",
-  img: PRINCE,
+  },
+  {
+    id: "testimonial-15",
+    title: "",
+    content: "",
+    img: PRINCE,
 
-},
-{
-  id: "testimonial-16",
-  title: "",
-  content: "",
-  img: PRIYA,
+  },
+  {
+    id: "testimonial-16",
+    title: "",
+    content: "",
+    img: PRIYA,
 
-},
-{
-  id: "testimonial-17",
-  title: "",
-  content: "",
-  img: RAJAGHOSH,
+  },
+  {
+    id: "testimonial-17",
+    title: "",
+    content: "",
+    img: RAJAGHOSH,
 
-},
-{
-  id: "testimonial-18",
-  title: "",
-  content: "",
-  img: RAJAT,
+  },
+  {
+    id: "testimonial-18",
+    title: "",
+    content: "",
+    img: RAJAT,
 
-},
-{
-  id: "testimonial-19",
-  title: "",
-  content: "",
-  img: RAMAN,
+  },
+  {
+    id: "testimonial-19",
+    title: "",
+    content: "",
+    img: RAMAN,
 
-},
-{
-  id: "testimonial-20",
-  title: "",
-  content: "",
-  img: RITURAJ,
+  },
+  {
+    id: "testimonial-20",
+    title: "",
+    content: "",
+    img: RITURAJ,
 
-},
-{
-  id: "testimonial-21",
-  title: "",
-  content: "",
-  img: RIYA,
+  },
+  {
+    id: "testimonial-21",
+    title: "",
+    content: "",
+    img: RIYA,
 
-},
-{
-  id: "testimonial-22",
-  title: "",
-  content: "",
-  img: SANDHYA,
+  },
+  {
+    id: "testimonial-22",
+    title: "",
+    content: "",
+    img: SANDHYA,
 
-},
-{
-  id: "testimonial-23",
-  title: "",
-  content: "",
-  img: SHASHI,
+  },
+  {
+    id: "testimonial-23",
+    title: "",
+    content: "",
+    img: SHASHI,
 
-},
-{
-  id: "testimonial-24",
-  title: "",
-  content: "",
-  img: SHIVAMMOHAN,
+  },
+  {
+    id: "testimonial-24",
+    title: "",
+    content: "",
+    img: SHIVAMMOHAN,
 
-},
-{
-  id: "testimonial-25",
-  title: "",
-  content: "",
-  img: SONALGUPTA,
+  },
+  {
+    id: "testimonial-25",
+    title: "",
+    content: "",
+    img: SONALGUPTA,
 
-},
-{
-  id: "testimonial-26",
-  title: "",
-  content: "",
-  img: SONAM,
+  },
+  {
+    id: "testimonial-26",
+    title: "",
+    content: "",
+    img: SONAM,
 
-},
-{
-  id: "testimonial-27",
-  title: "",
-  content: "",
-  img: SURBHI,
+  },
+  {
+    id: "testimonial-27",
+    title: "",
+    content: "",
+    img: SURBHI,
 
-},
-{
-  id: "testimonial-28",
-  title: "",
-  content: "",
-  img: SUSHMITA,
+  },
+  {
+    id: "testimonial-28",
+    title: "",
+    content: "",
+    img: SUSHMITA,
 
-},
-{
-  id: "testimonial-29",
-  title: "",
-  content: "",
-  img: UDENDRASINGH, 
+  },
+  {
+    id: "testimonial-29",
+    title: "",
+    content: "",
+    img: UDENDRASINGH,
 
-},
-{
-  id: "testimonial-30",
-  title: "",
-  content: "",
-  img: UMA,
+  },
+  {
+    id: "testimonial-30",
+    title: "",
+    content: "",
+    img: UMA,
 
-},
-{
-  id: "testimonial-31",
-  title: "",
-  content: "",
-  img: VIJAY,
+  },
+  {
+    id: "testimonial-31",
+    title: "",
+    content: "",
+    img: VIJAY,
 
-},
+  },
 ];
-
+export const review = [
+  {
+    id: "testimonial-1",
+    title: "",
+    content: "",
+    img: t1,
+  },
+  {
+    id: "testimonial-2",
+    title: "",
+    content: "",
+    img: t2,
+  }, {
+    id: "testimonial-3",
+    title: "",
+    content: "",
+    img: t3,
+  }, {
+    id: "testimonial-4",
+    title: "",
+    content: "",
+    img: t4,
+  }, {
+    id: "testimonial-5",
+    title: "",
+    content: "",
+    img: t5,
+  }, {
+    id: "testimonial-6",
+    title: "",
+    content: "",
+    img: t6,
+  }, {
+    id: "testimonial-7",
+    title: "",
+    content: "",
+    img: t7,
+  }, {
+    id: "testimonial-8",
+    title: "",
+    content: "",
+    img: t8,
+  }, {
+    id: "testimonial-9",
+    title: "",
+    content: "",
+    img: t9,
+  }, {
+    id: "testimonial-10",
+    title: "",
+    content: "",
+    img: t10,
+  }, {
+    id: "testimonial-11",
+    title: "",
+    content: "",
+    img: t11,
+  }, {
+    id: "testimonial-12",
+    title: "",
+    content: "",
+    img: t12,
+  }, {
+    id: "testimonial-13",
+    title: "",
+    content: "",
+    img: t13,
+  }, {
+    id: "testimonial-14",
+    title: "",
+    content: "",
+    img: t14,
+  }, {
+    id: "testimonial-15",
+    title: "",
+    content: "",
+    img: t15,
+  }, {
+    id: "testimonial-16",
+    title: "",
+    content: "",
+    img: t16,
+  },
+];
 
 
 export const features = [
@@ -287,7 +388,7 @@ export const features = [
     title: "Web Development",
     content:
       "The best credit cards offer some tantalizing combinations of promotions and prizes",
-    link:"https://blog.epedagogue.com/"
+    link: "https://blog.epedagogue.com/"
   },
   {
     id: "feature-2",
@@ -295,7 +396,7 @@ export const features = [
     title: "software testing",
     content:
       "We take proactive steps make sure your information and transactions are secure.",
-      link:"https://blog.epedagogue.com/"
+    link: "https://blog.epedagogue.com/"
   },
   {
     id: "feature-3",
@@ -303,7 +404,7 @@ export const features = [
     title: "API testing",
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
-    link:"https://blog.epedagogue.com/"  
+    link: "https://blog.epedagogue.com/"
   },
   {
     id: "feature-4",
@@ -311,15 +412,15 @@ export const features = [
     title: "API testing1",
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
-    link:"https://blog.epedagogue.com/"  
+    link: "https://blog.epedagogue.com/"
   },
   {
-  id: "feature-5",
-  icon: star,
-  title: "Web Development",
-  content:"The best credit cards offer some tantalizing combinations of promotions and prizes",
-  link:"https://blog.epedagogue.com/"
-},
+    id: "feature-5",
+    icon: star,
+    title: "Web Development",
+    content: "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    link: "https://blog.epedagogue.com/"
+  },
 ];
 
 export const feedback = [
@@ -385,30 +486,30 @@ export const cardsData = [
   },
   {
     title: 'Efficient',
-    description:"Being a professional teacher means being knowledgeable and enthusiastic about one's materials creating a supportive and respectful classroom environment building authentic relationships with and advocating for students being organized and planning ahead.."
+    description: "Being a professional teacher means being knowledgeable and enthusiastic about one's materials creating a supportive and respectful classroom environment building authentic relationships with and advocating for students being organized and planning ahead.."
   },
   {
-    title:'Committed',
-    description:'Committed teachers are characterized by their commitment to achievement of their students Committed teachers are concerned with the development of their students and they deeply struggle how to keep students learning and grow more.',
+    title: 'Committed',
+    description: 'Committed teachers are characterized by their commitment to achievement of their students Committed teachers are concerned with the development of their students and they deeply struggle how to keep students learning and grow more.',
   },
-  ];
+];
 export const cardsData1 = [
   {
-    title:'Address Info',
+    title: 'Address Info',
     description: 'D-62, D Block, Sector 2, Noida, Uttar Pradesh 201301,',
-    img:adres,
+    img: adres,
   },
   {
     title: 'Contact Info',
     description: '7303644012,9716624550',
-    img:call,
+    img: call,
   },
   {
     title: 'Mail Info',
-    description:'officialepedagogue@gmail.com  info@epedagogue.com',
-    img:cll,
+    description: 'officialepedagogue@gmail.com  info@epedagogue.com',
+    img: cll,
   }
-] 
+]
 export const footerLinks = [
   {
     title: "Useful Links",
@@ -516,98 +617,98 @@ export const clients = [
     logo: dropbox,
   },
 ];
-export const forms =[
-{
-  id:"register",
-}
+export const forms = [
+  {
+    id: "register",
+  }
 ];
-export const cR =  [
+export const cR = [
   {
-   
-   content:'Software Enginner',
-   title:'Apply Now',
+
+    content: 'Software Enginner',
+    title: 'Apply Now',
   },
   {
-    content:'Teacher',
-    title:'Apply Now',
+    content: 'Teacher',
+    title: 'Apply Now',
   },
   {
-    content:' Hindi Teacher',
-    title:'Apply Now',
+    content: ' Hindi Teacher',
+    title: 'Apply Now',
   },
   {
-    content:' English Teacher',
-    title:'Apply Now',
+    content: ' English Teacher',
+    title: 'Apply Now',
   },
   {
-    content:' Math Teacher',
-    title:'Apply Now',
+    content: ' Math Teacher',
+    title: 'Apply Now',
   }
 ];
 
-const loginFields=[
+const loginFields = [
   {
-      labelText:"Email address",
-      labelFor:"email-address",
-      id:"email-address",
-      name:"email",
-      type:"email",
-      autoComplete:"email",
-      isRequired:true,
-      placeholder:"Email address"   
+    labelText: "Email address",
+    labelFor: "email-address",
+    id: "email-address",
+    name: "email",
+    type: "email",
+    autoComplete: "email",
+    isRequired: true,
+    placeholder: "Email address"
   },
   {
-      labelText:"Password",
-      labelFor:"password",
-      id:"password",
-      name:"password",
-      type:"password",
-      autoComplete:"current-password",
-      isRequired:true,
-      placeholder:"Password"   
+    labelText: "Password",
+    labelFor: "password",
+    id: "password",
+    name: "password",
+    type: "password",
+    autoComplete: "current-password",
+    isRequired: true,
+    placeholder: "Password"
   }
 ]
 
-const signupFields=[
+const signupFields = [
   {
-      labelText:"Username",
-      labelFor:"username",
-      id:"username",
-      name:"username",
-      type:"text",
-      autoComplete:"username",
-      isRequired:true,
-      placeholder:"Username"   
+    labelText: "Username",
+    labelFor: "username",
+    id: "username",
+    name: "username",
+    type: "text",
+    autoComplete: "username",
+    isRequired: true,
+    placeholder: "Username"
   },
   {
-      labelText:"Email address",
-      labelFor:"email-address",
-      id:"email-address",
-      name:"email",
-      type:"email",
-      autoComplete:"email",
-      isRequired:true,
-      placeholder:"Email address"   
+    labelText: "Email address",
+    labelFor: "email-address",
+    id: "email-address",
+    name: "email",
+    type: "email",
+    autoComplete: "email",
+    isRequired: true,
+    placeholder: "Email address"
   },
   {
-      labelText:"Password",
-      labelFor:"password",
-      id:"password",
-      name:"password",
-      type:"password",
-      autoComplete:"current-password",
-      isRequired:true,
-      placeholder:"Password"   
+    labelText: "Password",
+    labelFor: "password",
+    id: "password",
+    name: "password",
+    type: "password",
+    autoComplete: "current-password",
+    isRequired: true,
+    placeholder: "Password"
   },
   {
-      labelText:"Confirm Password",
-      labelFor:"confirm-password",
-      id:"confirm-password",
-      name:"confirm-password",
-      type:"password",
-      autoComplete:"confirm-password",
-      isRequired:true,
-      placeholder:"Confirm Password"   
+    labelText: "Confirm Password",
+    labelFor: "confirm-password",
+    id: "confirm-password",
+    name: "confirm-password",
+    type: "password",
+    autoComplete: "confirm-password",
+    isRequired: true,
+    placeholder: "Confirm Password"
   }
 ]
 

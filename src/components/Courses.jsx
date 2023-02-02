@@ -1,5 +1,5 @@
 import React from 'react'
-import { features } from '../constants'
+import { features, } from '../constants'
 import styles, { layout } from '../style'
 import buttons from './buttons'
 import { COURSES, quiz, SIGNIN } from '../assets'
@@ -29,6 +29,7 @@ const Courses = () => {
             </div>
           ))}
         </div>
+        
 
       </div>
 
