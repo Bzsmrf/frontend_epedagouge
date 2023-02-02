@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../style'
-import {  review, testimonial } from '../constants'
-import {  PLACEMENT } from '../assets'
+import { review, testimonial } from '../constants'
+import { PLACEMENT } from '../assets'
 const Testimonials = () => {
   return (
     <section id="placement" >
@@ -31,10 +31,6 @@ const Testimonials = () => {
         <div className={`h-auto overflow-x-auto flex container::-webkit-scrollbar  text-black `}>
           {review.map((feature) => (
             <div className={`${styles.boxfix} font-poppins justify-items-center mx-1 min-w-m  rounded-lg py-2 px-2 xs:py-2 px-2 text-black-700 hover:text-black-900  `}>
-              {/* <h1 className="  text-[12px]  xs:text-[15px] font-poppins px-4 py-2 font-semibold text-black bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue  ">
-          {feature.title}
-            
-          </h1> */}
               <img src={feature.img} className='w-[400px]'></img>
               <p className={`${styles.paragraph} text-black text-left max-w-[450px]`}>
                 {feature.content}

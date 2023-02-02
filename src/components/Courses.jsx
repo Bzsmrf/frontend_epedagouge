@@ -19,13 +19,14 @@ const Courses = () => {
         <div className={`h-auto overflow-x-auto flex container::-webkit-scrollbar  text-black `}>
           {features.map((feature) => (
             <div className={`${styles.boxfix} font-poppins justify-items-center mx-1 min-w-m bg-secondary rounded-lg py-2 px-2 xs:py-2 px-2 text-black-700 hover:text-black-900  `}>
-              <button className="  text-[12px]  xs:text-[15px] font-poppins px-4 py-2 font-semibold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue  ">
+            <img src={feature.img} alt="sign" className='' />
+              <button className="mt-5  text-[12px]  xs:text-[15px] font-poppins px-4 py-2 font-semibold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue  ">
                 <a href='#register'>{feature.title}</a>
               </button>
 
-              <p className={`font-poppins text-[12px]  xs:text-[15px] sm:text-overflow-hidden py-2 px-2 `}>
+              {/* <p className={`font-poppins text-[12px]  xs:text-[15px] sm:text-overflow-hidden py-2 px-2 `}>
                 {feature.content}
-              </p>
+              </p> */}
             </div>
           ))}
         </div>

@@ -46,6 +46,16 @@ import {
   t14,
   t15,
   t16,
+  django,
+  spring,
+  python,
+  java,
+  larvel,
+  reactimg,
+  api_test,
+  automation,
+  manual,
+  angular,
 } from "../assets";
 import Career from "../components/Career";
 
@@ -385,42 +395,93 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Web Development",
+    title: "Manual Testing Training",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
-    link: "https://blog.epedagogue.com/"
+      "Manual testing involves the execution of a software component or system component to evaluate one or more properties of interest as manualy test.",
+    link: "https://blog.epedagogue.com/",
+    img : manual,
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "software testing",
+    title: "Automation Testing Training",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
-    link: "https://blog.epedagogue.com/"
+      " Automation Testing or Test Automation is a software testing technique thatperforms usingspecial automated testing software tools to execute a test.",
+    link: "https://blog.epedagogue.com/",
+    img : automation,
   },
   {
     id: "feature-3",
     icon: send,
-    title: "API testing",
+    title: "API Testing Training",
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
-    link: "https://blog.epedagogue.com/"
+    link: "https://blog.epedagogue.com/",
+    img : api_test,
   },
   {
     id: "feature-4",
     icon: send,
-    title: "API testing1",
+    title: "Reactjs Training",
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
-    link: "https://blog.epedagogue.com/"
+    link: "https://blog.epedagogue.com/",
+    img : reactimg,
   },
   {
     id: "feature-5",
     icon: star,
-    title: "Web Development",
+    title: "Angular Training",
     content: "The best credit cards offer some tantalizing combinations of promotions and prizes",
-    link: "https://blog.epedagogue.com/"
+    link: "https://blog.epedagogue.com/",
+    img  : angular,
   },
+  {
+    id: "feature-6",
+    icon: send,
+    title: "Laravel Training",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+    link: "https://blog.epedagogue.com/",
+    img : larvel,
+  },
+  {
+    id: "feature-7",
+    icon: send,
+    title: "Java Training",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+    link: "https://blog.epedagogue.com/",
+    img : java,
+  },
+  {
+    id: "feature-8",
+    icon: send,
+    title: "Python Training",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+    link: "https://blog.epedagogue.com/",
+    img : python,
+  },
+  {
+    id: "feature-9",
+    icon: send,
+    title: "Spring Boot Training",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+    link: "https://blog.epedagogue.com/",
+    img : spring,
+  },
+  {
+    id: "feature-10",
+    icon: send,
+    title: "Django Training",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+    link: "https://blog.epedagogue.com/",
+    img : django,
+  },
+
 ];
 
 export const feedback = [

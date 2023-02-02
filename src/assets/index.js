@@ -80,6 +80,16 @@ import t13 from "./13.png";
 import t14 from "./14.png";
 import t15 from "./15.png";
 import t16 from "./16.png";
+import django from "./django-traning-for-epedagogue.png";
+import spring from "./spring-boot-traning-for-epedagogue.png";
+import python from "./payhton-traning-for-epdagogue.png";
+import java from "./java-for-epedagogue.png";
+import larvel from "./laravel-traning-for-epedagogue.png";
+import reactimg from "./reactjs-for-epedagogue.png";
+import api_test from "./api-testing-for-epedagogue.png";
+import automation from "./automaTION.png";
+import manual from "./Manual-testing-for-epedagogue.png";
+import angular from "./angular-for-epedagogue.png";
 
 export {
   airbnb,
@@ -164,4 +174,15 @@ export {
   t14,
   t15,
   t16,
+  django,
+  // django,
+  spring,
+  python,
+  java,
+  larvel,
+  reactimg,
+  api_test,
+  automation,
+  manual,
+  angular,
 };
