@@ -30,7 +30,7 @@ const RegistrationForm = () => {
         <span className='text-gradient font-semibold'>Start doing the job already...</span>
           <br /><span className='text-xl font-bold'>Register Now</span></h1>
       </div>
-      <form id="form" onSubmit={handleSubmit} className={`bg-secondary leading-[20px] w-[300px] ml-[2rem]  p-6 rounded-lg md:w-[300px] sm:max-w-[300px] justify-centre text-black`}>
+      <form id="form" onSubmit={handleSubmit} className={`leading-[20px] w-[300px] ml-[2rem]  p-6 rounded-lg md:w-[300px] sm:max-w-[300px] justify-centre text-white`}>
         <h2 className="text-xl font-medium mb-4  font-bold">Registration Form</h2>
         <div className="mb-4">
           <label className="block text-white-700 font-medium mb-2" htmlFor="name">

@@ -56,6 +56,27 @@ import {
   automation,
   manual,
   angular,
+  newgen,
+  infosys,
+  campul,
+  verzion,
+  coforge,
+  extramarks,
+  fis,
+  capgm,
+  paytm,
+  virtusa,
+  wipro,
+  witzeal,
+  cedcoss,
+  tata,
+  hcl,
+  techm,
+  globallogic,
+  accenture,
+  impactqa,
+  growess,
+  chetu,
 } from "../assets";
 import Career from "../components/Career";
 
@@ -389,6 +410,93 @@ export const review = [
     img: t16,
   },
 ];
+
+export const partners=[
+  {
+    id:"partner-1",
+    img : newgen,
+  },
+  {
+    id:"partner-2",
+    img : infosys,
+  },
+  {
+    id:"partner-3",
+    img : campul,
+  },
+  {
+    id:"partner-4",
+    img : verzion,
+  },
+  {
+    id:"partner-5",
+    img : coforge,
+  },
+  {
+    id:"partner-6",
+    img : extramarks,
+  },
+  {
+    id:"partner-7",
+    img : fis,
+  },
+  {
+    id:"partner-8",
+    img : capgm,
+  },
+  {
+    id:"partner-9",
+    img : paytm,
+  },
+  {
+    id:"partner-10",
+    img : virtusa,
+  },
+  {
+    id:"partner-11",
+    img : wipro,
+  },
+  {
+    id:"partner-12",
+    img : witzeal,
+  },
+  {
+    id:"partner-13",
+    img : cedcoss,
+  },
+  {
+    id:"partner-14",
+    img : tata,
+  },
+  {
+    id:"partner-15",
+    img : hcl,
+  },
+  {
+    id:"partner-16",
+    img : techm,
+  },
+  {
+    id:"partner-17",
+    img : globallogic,
+  },
+  {
+    id:"partner-18",
+    img : accenture,
+  },
+  {
+    id:"partner-19",
+    img : impactqa,
+  },
+  {
+    id:"partner-20",
+    img : growess,
+  },
+  {
+    id:"partner-21",
+    img : chetu,
+  },
+]
 
 
 export const features = [

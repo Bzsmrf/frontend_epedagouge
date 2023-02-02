@@ -23,6 +23,10 @@ const Aboutus = ({show,setShow }) => {
           <img src={summer}></img>
           </div>
           
+          <h1>
+            <br/>
+          We are the community of enthusiastic creative minds committed to revolutionizing the current methodology of Education Digital solutions Entrepreneurship Skill nurturing add uplifting the impoverished According to the IAMAI report Approx 40% population is living below the poverty line, illiteracy rate is more than 25-30% and digital literacy is almost no-existent among more than 90% of India's population Our mission is to empower the last underprivileged in remote areas.
+          </h1>
           
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4 mt-[10px]">
              {cardsData.map((card, index) => (

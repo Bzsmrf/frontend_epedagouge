@@ -90,6 +90,28 @@ import api_test from "./api-testing-for-epedagogue.png";
 import automation from "./automaTION.png";
 import manual from "./Manual-testing-for-epedagogue.png";
 import angular from "./angular-for-epedagogue.png";
+import newgen from "./Newgen.png";
+import virtusa from "./virtusa.png";
+import witzeal from "./witzeal.svg";
+import cedcoss from "./Cedcoss.png";
+import tata from "./tata_motors.png";
+import hcl from "./hcltech.svg";
+import techm from "./techm.png";
+import globallogic from "./globallogic.svg";
+import accenture from "./accenture.png";
+import impactqa from "./ImpactQA.png";
+import growess from "./growexx.svg";
+import wipro from "./wipro.svg";
+import chetu from "./chetu.png";
+import infosys from "./logo.png";
+import campul from "./campul.svg";
+import verzion from "./verizon.png";
+import coforge from "./coforge.png";
+import extramarks from "./extramarks.svg";
+import fis from "./FIS.png";
+import capgm from "./capgm.svg";
+import paytm from "./paytm.png";
+ 
 
 export {
   airbnb,
@@ -175,7 +197,6 @@ export {
   t15,
   t16,
   django,
-  // django,
   spring,
   python,
   java,
@@ -185,4 +206,25 @@ export {
   automation,
   manual,
   angular,
+  newgen,
+  infosys,
+  campul,
+  verzion,
+  coforge,
+  extramarks,
+  fis,
+  capgm,
+  paytm,
+  virtusa,
+  wipro,
+  witzeal,
+  cedcoss,
+  tata,
+  hcl,
+  techm,
+  globallogic,
+  accenture,
+  impactqa,
+  growess,
+  chetu,
 };
